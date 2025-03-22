@@ -1,0 +1,8 @@
+{
+    "C_Cpp.default.compilerPath": "\"includePath\": [     \"${workspaceFolder}/**\",     \"C:/msys64/mingw64/include/c++/13.1.0\",   // Update for GCC version     \"C:/msys64/mingw64/include\" ], \"compilerPath\": \"C:/msys64/mingw64/bin/g++.exe\",",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "string": "cpp"
+    }
+}

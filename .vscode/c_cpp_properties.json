@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "{",
+                "  \"configurations\": [",
+                "    {",
+                "      \"name\": \"Win32\",",
+                "      \"includePath\": [",
+                "        \"${workspaceFolder}/**\",",
+                "        \"C:/msys64/mingw64/include\",",
+                "        \"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include\",",
+                "        \"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++\"",
+                "      ],",
+                "      \"defines\": [],",
+                "      \"compilerPath\": \"C:/msys64/mingw64/bin/g++.exe\",",
+                "      \"intelliSenseMode\": \"windows-gcc-x64\",",
+                "      \"cppStandard\": \"c++17\",",
+                "      \"cStandard\": \"c11\"",
+                "    }",
+                "  ],",
+                "  \"version\": 4",
+                "}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "\"includePath\": [     \"${workspaceFolder}/**\",     \"C:/msys64/mingw64/include/c++/13.1.0\",   // Update for GCC version     \"C:/msys64/mingw64/include\" ], \"compilerPath\": \"C:/msys64/mingw64/bin/g++.exe\","
+        }
+    ],
+    "version": 4
+}

@@ -1,31 +1,28 @@
-#include <iostream>
-#include <string>
-
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    int weight[3] = {0, 0, 0}; // A, B, C represented as 0, 1, 2
+int main(){
+    int w[3]={0, 0, 0}; 
 
-    for (int i = 0; i < 3; ++i) {
-        string result;
-        cin >> result;
+    for(int i=0;i<3;++i){
+        string res;
+        cin>>res;
 
-        if (result[1] == '>') {
-            weight[result[0] - 'A']++;
-        } else {
-            weight[result[2] - 'A']++;
+        if(res[1]=='>'){
+            w[res[0]-'A']++;
+        } else{
+            w[res[2]-'A']++;
         }
     }
 
-    // Check for a valid permutation
-    if (weight[0] == weight[1] || weight[1] == weight[2] || weight[0] == weight[2]) {
-        cout << "Impossible" << endl;
-    } else {
+    if(w[0]==w[1] || w[1]==w[2] || w[0]==w[2]){
+        cout<<"Impossible"<<endl;
+    } else{
         char order[3];
-        for (int i = 0; i < 3; ++i) {
-            order[weight[i]] = 'A' + i;
+        for(int i=0;i<3;++i){
+            order[w[i]]='A'+i;
         }
-        cout << order[0] << order[1] << order[2] << endl;
+        cout<<order[0]<<order[1]<<order[2]<<endl;
     }
 
     return 0;
